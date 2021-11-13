@@ -5,6 +5,14 @@
 	<meta charset="UTF-8">
 	<title>Sobre</title>
 	<style>
+		body {
+			font-family: 'Calibri';
+			background-image: url('light-aluminum.png');
+			background-color: burlywood;
+			background-blend-mode: multiply;
+			background-size: auto;
+		}
+
 		a {
 			text-decoration: none;
 			color: #000000;
@@ -14,9 +22,7 @@
 
 <body>
 	<hr>
-	<h1 align='center'>
-		Zenimotors
-	</h1>
+	<img src="Zenimotors.png" style="display:block;margin-left:auto;margin-right:auto;">
 	<hr>
 	<?php include 'menu.php'; ?>
 	<hr>
@@ -47,7 +53,7 @@
 	</div>
 	</p>
 	<hr>
-	<img src="concessionaria.jpg" style="width:50em;">
+	<img src="concessionaria.jpg" align="center" style="display:block;margin-left:auto;margin-right:auto;width:50em;">
 </body>
 
 </html>

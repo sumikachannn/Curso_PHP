@@ -1,13 +1,14 @@
 <?php
-	$sql = "SELECT * FROM tb_usuario ORDER BY username";
-	include "conexao.php";
-	$clientes  = $fusca -> prepare($sql);
-	$clientes -> execute();		
-	$fusca = NULL; 	
-	$n_cli = $clientes -> rowCount();
+$sql = "SELECT * FROM tb_usuario ORDER BY username";
+include "conexao.php";
+$clientes  = $fusca->prepare($sql);
+$clientes->execute();
+$fusca = NULL;
+$n_cli = $clientes->rowCount();
 ?>
 <style>
-	.button{
+	.button {
+		font-family: 'Calibri';
 		width: 100px;
 	}
 </style>
