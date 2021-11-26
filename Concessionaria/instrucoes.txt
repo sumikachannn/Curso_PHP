@@ -1,7 +1,0 @@
-Instruções para instalação da agenda_pcj v2.1 
-#Descompactar os arquivos;
-#Importar a base (bd_agenda.sql) para seu banco de dados;
-#Copiar os arquivos para a pasta do servidor:
-   *Xampp (htdocs);
-   *Wampp (www);
-   *Hostinger (public_html).
